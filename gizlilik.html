@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gizlilik Politikası — Real TRY</title>
+<meta name="description" content="Real TRY gizlilik politikası: uygulama sizinle ilgili hiçbir veri toplamaz.">
+<style>
+:root { --blue:#2f6fb5; --orange:#c2571a; --ink:#16161a; --body:#3b3b42; --muted:#71717a; --line:#e6e6ea; --bg:#fbfbfc; --card:#fff; }
+@media (prefers-color-scheme: dark) { :root { --blue:#6fa8e6; --orange:#f08a4b; --ink:#f4f4f5; --body:#d4d4d8; --muted:#a1a1aa; --line:#2a2a2e; --bg:#0d0d0f; --card:#161619; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--body); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; -webkit-text-size-adjust:100%; }
+.wrap { max-width:42rem; margin:0 auto; padding:2rem 1.15rem 4rem; }
+header { display:flex; align-items:center; gap:.7rem; margin-bottom:2.25rem; }
+header .name { font-weight:700; color:var(--ink); font-size:1.05rem; }
+header .what { font-size:.66rem; letter-spacing:.11em; text-transform:uppercase; color:var(--muted); }
+.langs { margin-left:auto; font-size:.85rem; white-space:nowrap; }
+.langs a { color:var(--muted); text-decoration:none; }
+.langs a[aria-current] { color:var(--ink); font-weight:600; }
+h1 { color:var(--ink); font-size:1.55rem; line-height:1.25; margin:0 0 .3rem; }
+h2 { color:var(--ink); font-size:1.05rem; margin:2.25rem 0 .5rem; }
+.meta { color:var(--muted); font-size:.85rem; margin:0 0 1.75rem; }
+ul { padding-left:1.2rem; } li { margin:.35rem 0; }
+a { color:var(--blue); } strong { color:var(--ink); }
+footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; }
+.hero { margin:1rem 0 2.5rem; } .hero h1 { font-size:1.9rem; } .hero p { font-size:1.05rem; }
+.en { margin-top:2.5rem; padding-top:2rem; border-top:1px solid var(--line); }
+.links { display:flex; flex-wrap:wrap; gap:.75rem; margin-top:1.5rem; }
+.links a { border:1px solid var(--line); border-radius:10px; padding:.55rem .9rem; text-decoration:none; background:var(--card); }
+.soon { color:var(--muted); font-size:.9rem; margin-top:2rem; }
+.two { display:flex; gap:.6rem; flex-wrap:wrap; margin:1.25rem 0; }
+.pill { border:1px solid var(--line); border-radius:999px; padding:.2rem .8rem; font-size:.85rem; background:var(--card); }
+.pill.t { color:var(--blue); } .pill.e { color:var(--orange); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div><div class="name">Real TRY</div><div class="what">ENFLASYONA GÖRE DÜZELTİLMİŞ KUR</div></div>
+    <div class="langs"><a href="/gizlilik" aria-current="page">TR</a> · <a href="/privacy">EN</a></div>
+  </header>
+
+  <h1>Gizlilik Politikası</h1>
+  <p class="meta">Son güncelleme: 5 Ekim 2026 · Uygulama sürümü: 1.0.0</p>
+  <h2>Kısaca</h2>
+  <p><strong>Bu uygulama sizinle ilgili hiçbir şey toplamaz.</strong> Hesap açılmaz. Seçimleriniz (para birimi, başlangıç ayı) yalnızca cihazınızda ekranda tutulur, hiçbir sunucuya gönderilmez. Geliştirici olarak verilerinizi göremeyiz.</p>
+  <h2>İnternet bağlantısı ne için kullanılır</h2>
+  <p>Uygulama internete tek bir amaçla çıkar: yayımlanmış <strong>enflasyon rakamları ve döviz kurlarını içeren herkese açık küçük bir dosyayı</strong> (<code>https://realtry.app/data.json</code>) güncel tutmak için. Bu dosya aylık güncellenir; uygulama indirilirken içinde bir kopya hazır gelir ve internet yokken o kopya ya da en son indirilen kopya kullanılır.</p>
+  <p>Bu istek <strong>sizinle ilgili hiçbir bilgi taşımaz</strong>: ne seçimlerinizi, ne cihaz kimliğinizi, ne de bir hesap bilgisini. İnternetteki her istekte olduğu gibi, dosyayı sunan sunucu (GitHub Pages) IP adresinizi görür; bu, uygulamanın denetiminde değildir ve ilgili kuruluşun kendi politikasına tabidir.</p>
+  <h2>Veri kaynakları</h2>
+  <ul>
+    <li>TÜİK tüketici fiyat endeksi — T.C. Merkez Bankası EVDS üzerinden.</li>
+    <li>ENAG (Enflasyon Araştırma Grubu) aylık enflasyon açıklamaları — ENAG’ın açıklamalarını aktaran haber kaynaklarından derlenir; her ayın kaynağı <a href="/sources.json">sources.json</a> dosyasında yayımlanır.</li>
+    <li>ABD tüketici fiyat endeksi — FRED / ABD İstatistik Bürosu.</li>
+    <li>Euro Bölgesi HICP ve aylık ortalama döviz kurları — Eurostat.</li>
+  </ul>
+  <h2>Toplanmayanlar</h2>
+  <ul>
+    <li>Analitik, kullanım istatistiği veya çökme raporu yok.</li>
+    <li>Reklam yok, reklam kimliği yok.</li>
+    <li>Üçüncü taraf takip yazılımı yok.</li>
+    <li>Konum, fotoğraf, kişi listesi, takvim veya başka bir izne erişim yok.</li>
+  </ul>
+  <h2>Cihazda saklananlar</h2>
+  <p>En son indirilen veri dosyasının bir kopyası, uygulama çevrimdışı çalışabilsin diye cihazınızın kendi depolama alanında tutulur. Uygulamayı silmek bunu da siler.</p>
+  <h2>Hesap ve yatırım uyarısı</h2>
+  <p>Real TRY bir bilgilendirme ve tahmin aracıdır. Gösterilen “düzeltilmiş kur”, seçilen başlangıç ayında kurun dengede olduğu varsayımına dayanan basit bir hesaptır; kurun gerçekte olması gerektiği değeri söylemez. Hiçbir şekilde yatırım, finans veya hukuk tavsiyesi değildir. TÜİK ve ENAG ilgili kurumların adlarıdır; uygulama bu kurumlarla bağlantılı değildir.</p>
+  <h2>Çocuklar</h2>
+  <p>Uygulama çocuklara yönelik değildir ve onlardan bilerek veri toplamaz.</p>
+  <h2>Değişiklikler</h2>
+  <p>Politika değişirse güncel metin uygulamanın mağaza sayfasında ve bu adreste yayımlanır; yukarıdaki “son güncelleme” tarihi değişir.</p>
+  <h2>İletişim</h2>
+  <p>Sorularınız için: <a href="mailto:support@realtry.app">support@realtry.app</a></p>
+
+  <footer>Real TRY · <a href="mailto:support@realtry.app">support@realtry.app</a></footer>
+</div>
+</body>
+</html>
