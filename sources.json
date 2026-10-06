@@ -21,7 +21,12 @@
  },
  "2021-02": {
   "source": "https://twitter.com/enagrup/status/1367015826193276931",
-  "annual": null
+  "annual": null,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://artigercek.com/haberler/enflasyon-arastirma-grubu-enflasyon-son-alti-ayda-yuzde-19-98-artti",
+   "note": "Artigercek, originally 3 Mar 2021: 'Subat 2021 doneminde aylik enflasyon yuzde 1,84' (1.93 on TUIK's previous basket)"
+  }
  },
  "2021-03": {
   "source": "https://www.paraanaliz.com/2021/ekonomi/analiz-mart-enflasyonu-enag-yuzde-336-tuik-yuzde-108-sene-sonu-en-az-yuzde15-g-2088/",
@@ -29,11 +34,21 @@
  },
  "2021-04": {
   "source": "https://www.gazeteduvar.com.tr/enflasyon-yuzde-kac-nisan-2021-haber-1521113",
-  "annual": null
+  "annual": null,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://www.gazeteduvar.com.tr/enflasyon-yuzde-kac-nisan-2021-haber-1521113",
+   "note": "Gazete Duvar 'Enflasyon yuzde kac? (nisan 2021)': 'TUFE nisan TUIK'e gore yuzde 1,68, ENAG'a gore yuzde 2,62'. Quote is in a commentary section, not a dedicated ENAG release article."
+  }
  },
  "2021-05": {
   "source": "https://twitter.com/ENAGRUP/status/1400338988985106432",
-  "annual": null
+  "annual": null,
+  "verification": {
+   "status": "unverified",
+   "url": null,
+   "note": "Only a WebSearch snippet/title (t24.com.tr/ekonomi/enag-mayis-ayi-enflasyonunu-aylik-bazda-yuzde-3-94-olarak-acikladi,956627) showed 3.94; the page could not be fetched (cert/connection error) and the x.com tweet is not an independent outlet. Other fetched 'mayis' pages were 2026 or 2023."
+  }
  },
  "2021-06": {
   "source": "https://www.gazeteduvar.com.tr/enflasyon-yuzde-kac-haziran-2021-haber-1527592",
@@ -53,7 +68,12 @@
  },
  "2021-10": {
   "source": "https://twitter.com/ENAGRUP/status/1455780763216060418",
-  "annual": 49.87
+  "annual": 49.87,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://www.birgun.net/haber/ekim-ayi-enflasyon-rakamlari-tuik-e-gore-yillik-yuzde-19-89-a-yukseldi-364354",
+   "note": "Birgun, 3 Nov 2021 (TUIK annual 19.89 in title)"
+  }
  },
  "2021-11": {
   "source": "https://bianet.org/haber/enag-in-enflasyonu-yillik-yuzde-58-65-254275",
@@ -89,7 +109,12 @@
  },
  "2022-07": {
   "source": "https://www.evrensel.net/haber/467286/temmuz-ayinda-yillik-enflasyon-enaga-gore-yuzde-176-tuike-gore-yuzde-79-60-oldu",
-  "annual": 176
+  "annual": 176,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://www.birgun.net/haber/enag-yillik-enflasyon-yuzde-176-ya-yukseldi-397588",
+   "note": "Birgun 2022-08-03: annual 176.04 (ours 176.0 is a rounding of 176.04)"
+  }
  },
  "2022-08": {
   "source": "https://medyascope.tv/2022/09/05/aylik-enflasyon-tuike-gore-yuzde-146-enaga-gore-yuzde-586/",
@@ -105,7 +130,12 @@
  },
  "2022-11": {
   "source": "https://www.gazeteduvar.com.tr/enag-yillik-enflasyon-yuzde-170-oldu-haber-1592199",
-  "annual": 170.7
+  "annual": 170.7,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://www.diken.com.tr/enag-yillik-enflasyon-yuzde-1707/",
+   "note": "Diken 2022-12-05: annual 170.7 (monthly 4.24)"
+  }
  },
  "2022-12": {
   "source": "https://www.paraanaliz.com/haberler/enag-2022de-yillik-enflasyon-yuzde-1375",
@@ -113,99 +143,220 @@
  },
  "2023-01": {
   "source": "https://www.brandingturkiye.com/enag-ocak-2023-enflasyonunu-acikladi/",
-  "annual": 121.62
+  "annual": 121.62,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://www.birgun.net/haber/enag-ocak-ayi-enflasyon-verilerini-acikladi-419979",
+   "note": "Birgun, dated 03.02.2023"
+  }
  },
  "2023-02": {
   "source": "https://www.brandingturkiye.com/enag-subat-2023-enflasyonunu-acikladi/",
-  "annual": 126.91
+  "annual": 126.91,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://bianet.org/haber/enag-yillik-enflasyon-yuzde-126-91-e-yukseldi-275092",
+   "note": "Bianet, published 3 Mar 2023"
+  }
  },
  "2023-03": {
   "source": "https://www.brandingturkiye.com/enag-mart-2023-enflasyonunu-acikladi/",
-  "annual": 112.51
+  "annual": 112.51,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://www.diken.com.tr/enag-enflasyonda-aylik-artis-yuzde-508/",
+   "note": "Diken, 3 Apr 2023"
+  }
  },
  "2023-04": {
   "source": "https://www.brandingturkiye.com/enag-nisan-2023-enflasyonunu-acikladi/",
-  "annual": 105.19
+  "annual": 105.19,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://tr.euronews.com/2023/05/03/nisan-ayi-enflasyonu-tuik-239-enagrup-486-olarak-acikladi",
+   "note": "Euronews TR, 3 May 2023"
+  }
  },
  "2023-05": {
   "source": "https://www.brandingturkiye.com/enag-mayis-2023-enflasyonunu-acikladi/",
-  "annual": 109.01
+  "annual": 109.01,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://www.cumhuriyet.com.tr/ekonomi/son-dakika-enag-mayis-ayi-enflasyon-verilerini-acikladi-2087749",
+   "note": "Cumhuriyet, 5 Jun 2023. 7.35/109.01 is the scenario with natural gas price unchanged; ENAG also published a zero-gas-price variant of 5.68/105.45."
+  },
+  "note": "ENAG published two variants for May 2023: 7.35 (natural-gas prices unchanged, used here) and 5.68 (zero-gas variant, 5.68 monthly / 105.45 annual)."
  },
  "2023-06": {
   "source": "https://www.brandingturkiye.com/enag-haziran-2023-enflasyonunu-acikladi/",
-  "annual": 108.58
+  "annual": 108.58,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://anlatilaninotesi.com.tr/20230703/enag-haziran-ayi-enflasyon-verilerini-acikladi-1073098921.html",
+   "note": "Sputnik Turkiye, 3 Jul 2023"
+  }
  },
  "2023-07": {
   "source": "https://www.brandingturkiye.com/enag-temmuz-2023-enflasyonunu-acikladi/",
-  "annual": 122.88
+  "annual": 122.88,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://www.sozcu.com.tr/2023/ekonomi/enflasyon-rakamlari-aciklandi-40-7762414/",
+   "note": "Sozcu, 3 Aug 2023; also gazeteoksijen.com/ekonomi/enag-temmuz-ayi-enflasyon-verilerini-acikladi-185300"
+  }
  },
  "2023-08": {
   "source": "https://www.brandingturkiye.com/enag-agustos-2023-enflasyonunu-acikladi/",
-  "annual": 128.05
+  "annual": 128.05,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://tr.euronews.com/business/2023/09/04/agustos-ayinda-enflasyon-tuike-gore-yuzde-589-enaga-gore-yuzde-128",
+   "note": "Euronews TR, 4 Sep 2023"
+  }
  },
  "2023-09": {
   "source": "https://www.brandingturkiye.com/enag-eylul-2023-enflasyonunu-acikladi/",
-  "annual": 130.13
+  "annual": 130.13,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://anlatilaninotesi.com.tr/20231003/enag-eylul-ayi-enflasyon-verilerini-acikladi-1075973005.html",
+   "note": "Sputnik Turkiye, 3 Oct 2023; Euronews TR 2023/10/03 also shows 6.24 and 130.13"
+  }
  },
  "2023-10": {
   "source": "https://www.brandingturkiye.com/enag-ekim-2023-enflasyonunu-acikladi/",
-  "annual": 126.18
+  "annual": 126.18,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://www.dunya.com/ekonomi/enag-enflasyon-rakamlarini-acikladi-haberi-709801",
+   "note": "Dunya Gazetesi, 3 Nov 2023"
+  }
  },
  "2023-11": {
   "source": "https://www.brandingturkiye.com/enag-kasim-2023-enflasyonunu-acikladi/",
-  "annual": 129.27
+  "annual": 129.27,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://medyascope.tv/2023/12/04/enflasyon-tuike-gore-yuzde-6198-enaga-gore-yuzde-12927/",
+   "note": "Medyascope, 4 Dec 2023"
+  }
  },
  "2023-12": {
   "source": "https://www.brandingturkiye.com/enag-aralik-2023-enflasyonunu-acikladi/",
-  "annual": 127.21
+  "annual": 127.21,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://boldmedya.com/2024/01/03/enag-yilin-ilk-enflasyonunu-acikladi/",
+   "note": "BoldMedya, 3 Jan 2024 (2023 full-year figure)"
+  }
  },
  "2024-01": {
   "source": "https://www.brandingturkiye.com/enag-ocak-2024-enflasyonunu-acikladi/",
-  "annual": 129.11
+  "annual": 129.11,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://www.diken.com.tr/enaga-gore-yillik-enflasyon-yuzde-129-2/",
+   "note": "Diken, dated 2024-02-05"
+  }
  },
  "2024-02": {
   "source": "https://www.brandingturkiye.com/enag-subat-2024-enflasyonunu-acikladi/",
-  "annual": 121.98
+  "annual": 121.98,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://ankahaber.net/haber/detay/enag_yillik_enflasyonu_yuzde_12198_olarak_acikladi_170534",
+   "note": "Anka Haber, Feb 2024"
+  }
  },
  "2024-03": {
   "source": "https://www.brandingturkiye.com/enag-mart-2024-enflasyonunu-acikladi/",
-  "annual": 124.63
+  "annual": 124.63,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://www.dunya.com/ekonomi/son-dakika-enag-mart-ayi-enflasyon-rakamlarini-acikladi-haberi-721846",
+   "note": "Dunya, dated 2024-04-03"
+  }
  },
  "2024-04": {
   "source": "https://www.brandingturkiye.com/enag-nisan-2024-enflasyonunu-acikladi/",
-  "annual": 124.35
+  "annual": 124.35,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://serbestiyet.com/haberler/nisan-ayi-enflasyon-verileri-aciklandi-yillik-enflasyon-tuike-gore-yuzde-6980-enaga-gore-yuzde-12435-165649/",
+   "note": "Serbestiyet, 2024-05-03"
+  }
  },
  "2024-05": {
   "source": "https://www.brandingturkiye.com/enag-mayis-2024-enflasyonunu-acikladi/",
-  "annual": 120.66
+  "annual": 120.66,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://gazeteoksijen.com/ekonomi/enaga-gore-enflasyon-yuzde-120-213086",
+   "note": "Gazete Oksijen; also cited as prior month in ekonomim/euronews June pages"
+  }
  },
  "2024-06": {
   "source": "https://www.brandingturkiye.com/enag-haziran-2024-enflasyonunu-acikladi/",
-  "annual": 113.08
+  "annual": 113.08,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://tr.euronews.com/2024/07/03/yillik-enflasyon-tuike-gore-yuzde-7160-enaga-gore-yuzde-113",
+   "note": "Euronews TR 2024-07-03; ekonomim agrees"
+  }
  },
  "2024-07": {
   "source": "https://www.brandingturkiye.com/enag-temmuz-2024-enflasyonunu-acikladi/",
-  "annual": 100.88
+  "annual": 100.88,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://tr.euronews.com/business/2024/08/05/enagin-yuzde-10088-olarak-acikladigi-yillik-enflasyon-tuike-gore-yuzde-6178",
+   "note": "Euronews TR 2024-08-05"
+  }
  },
  "2024-08": {
   "source": "https://www.brandingturkiye.com/enag-agustos-2024-enflasyonunu-acikladi/",
-  "annual": 90.35
+  "annual": 90.35,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://www.dunya.com/ekonomi/son-dakika-enflasyon-verileri-enag-enflasyon-rakamlarini-acikladi-enag-agustos-enflasyon-orani-haberi-744401",
+   "note": "Dunya 2024-09-03"
+  }
  },
  "2024-09": {
   "source": "https://www.brandingturkiye.com/enag-eylul-2024-enflasyonunu-acikladi/",
-  "annual": 88.63
+  "annual": 88.63,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://www.sozcu.com.tr/enag-eylul-ayi-enflasyonunu-acikladi-p89050",
+   "note": "Sozcu 2024-10-03"
+  }
  },
  "2024-10": {
   "source": "https://www.brandingturkiye.com/enag-ekim-2024-enflasyonunu-acikladi/",
-  "annual": 89.77
+  "annual": 89.77,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://artigercek.com/ekonomi/enag-yillik-enflasyon-yuzde-8977-oldu-322224h",
+   "note": "Artigercek 2024-11-04"
+  }
  },
  "2024-11": {
   "source": "https://www.brandingturkiye.com/enag-kasim-2024-enflasyonunu-acikladi/",
-  "annual": 86.76
+  "annual": 86.76,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://tr.euronews.com/2024/12/03/kasim-ayi-enflasyonu-yillik-bazda-4709-olarak-aciklandi",
+   "note": "Euronews TR 2024-12-03"
+  }
  },
  "2024-12": {
   "source": "https://www.brandingturkiye.com/enag-aralik-2024-enflasyonunu-acikladi/",
-  "annual": 83.4
+  "annual": 83.4,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://www.evrensel.net/haber/538793/enag-aralik-2024te-enflasyon-yuzde-2-34-artti-yillik-enflasyon-yuzde-83-40-oldu",
+   "note": "Evrensel 2025-01-03"
+  }
  },
  "2025-01": {
   "source": "https://tr.euronews.com/business/2025/02/03/ocak-ayinda-yillik-enflasyon-tuike-gore-yuzde-4212-enaga-gore-8101",
