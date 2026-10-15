@@ -37,12 +37,13 @@ footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line);
 .store strong { font-size:1.05rem; color:var(--bg); }
 .store[aria-disabled="true"] { opacity:.45; cursor:default; }
 .store .tag { font-size:.72rem; margin-top:.15rem; }
-/* Our other app: a plain link, no tracking; miskal.app links back the same way. Miskal's own gold for its name. */
+/* Our other app: a plain link, no tracking; miskal.app links back the same way. */
 .other { margin-top:2.5rem; }
 .other-label { font-size:.7rem; letter-spacing:.11em; text-transform:uppercase; color:var(--muted); margin-bottom:.5rem; }
-.other-app { display:flex; flex-direction:column; gap:.2rem; padding:.85rem 1rem; border:1px solid var(--line); border-radius:12px; background:var(--card); text-decoration:none; }
-.other-app strong { color:#8b580a; }
-@media (prefers-color-scheme: dark) { .other-app strong { color:#e0a834; } }
+.other-app { display:flex; align-items:center; gap:.9rem; padding:.85rem 1rem; border:1px solid var(--line); border-radius:12px; background:var(--card); text-decoration:none; }
+.other-app img { width:48px; height:48px; border-radius:11px; flex:none; }
+.other-app div { display:flex; flex-direction:column; gap:.2rem; min-width:0; }
+.other-app strong { color:var(--ink); }
 .other-app span { color:var(--body); font-size:.92rem; line-height:1.45; }
 .other-app .other-en { color:var(--muted); font-size:.85rem; }
 </style>
@@ -82,9 +83,12 @@ footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line);
   <div class="other">
     <div class="other-label">Diğer uygulamamız · Our other app</div>
     <a href="https://miskal.app" class="other-app">
-      <strong>Miskal</strong>
-      <span>Defterinizi altınla tutun: cari hesap, taksit, kredi ve birikimlerinizi gram altın cinsinden takip edin.</span>
-      <span class="other-en">Keep your books in gold: track receivables, instalments, loans and savings in grams of gold.</span>
+      <img src="/miskal-icon.png" alt="" width="48" height="48">
+      <div>
+        <strong>Miskal</strong>
+        <span>Defterinizi altınla tutun: cari hesap, taksit, kredi ve birikimlerinizi gram altın cinsinden takip edin.</span>
+        <span class="other-en">Keep your books in gold: track receivables, instalments, loans and savings in grams of gold.</span>
+      </div>
     </a>
   </div>
 
