@@ -37,6 +37,14 @@ footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line);
 .store strong { font-size:1.05rem; color:var(--bg); }
 .store[aria-disabled="true"] { opacity:.45; cursor:default; }
 .store .tag { font-size:.72rem; margin-top:.15rem; }
+/* Our other app: a plain link, no tracking; miskal.app links back the same way. Miskal's own gold for its name. */
+.other { margin-top:2.5rem; }
+.other-label { font-size:.7rem; letter-spacing:.11em; text-transform:uppercase; color:var(--muted); margin-bottom:.5rem; }
+.other-app { display:flex; flex-direction:column; gap:.2rem; padding:.85rem 1rem; border:1px solid var(--line); border-radius:12px; background:var(--card); text-decoration:none; }
+.other-app strong { color:#8b580a; }
+@media (prefers-color-scheme: dark) { .other-app strong { color:#e0a834; } }
+.other-app span { color:var(--body); font-size:.92rem; line-height:1.45; }
+.other-app .other-en { color:var(--muted); font-size:.85rem; }
 </style>
 </head>
 <body>
@@ -58,9 +66,7 @@ footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line);
     </a>
   </div>
     <p>Hangi ölçümün doğru olduğuna karar vermez; aradaki farkı ve sonuca etkisini gösterir. Yöntem, İsveçli ekonomist Gustav Cassel’in göreli satın alma gücü paritesidir. Hesap bir tahmindir, yatırım tavsiyesi değildir.</p>
-    <p>Hesap açmanız gerekmez, reklam yoktur, hiçbir veri toplanmaz.</p>
-  </div>
-    <p>Hesap bir tahmindir, yatırım tavsiyesi değildir. Hesap, veri kaynakları ve sınırlılıklar uygulamanın “Yöntem ve Notlar” sayfasında açıkça yazılıdır. Hesap açmanız gerekmez, reklam yoktur, hiçbir veri toplanmaz.</p>
+    <p>Hesap, veri kaynakları ve sınırlılıklar uygulamanın “Yöntem ve Notlar” sayfasında açıkça yazılıdır. Hesap açmanız gerekmez, reklam yoktur, hiçbir veri toplanmaz.</p>
   </div>
   <div class="en">
     <h1>What should the dollar and euro cost in lira today?</h1>
@@ -71,6 +77,15 @@ footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line);
     <a href="/gizlilik">Gizlilik Politikası</a>
     <a href="/privacy">Privacy Policy</a>
     <a href="mailto:support@realtry.app">support@realtry.app</a>
+  </div>
+
+  <div class="other">
+    <div class="other-label">Diğer uygulamamız · Our other app</div>
+    <a href="https://miskal.app" class="other-app">
+      <strong>Miskal</strong>
+      <span>Defterinizi altınla tutun: cari hesap, taksit, kredi ve birikimlerinizi gram altın cinsinden takip edin.</span>
+      <span class="other-en">Keep your books in gold: track receivables, instalments, loans and savings in grams of gold.</span>
+    </a>
   </div>
 
   <footer>Real TRY · <a href="mailto:support@realtry.app">support@realtry.app</a></footer>
