@@ -15,3 +15,11 @@ Derleme adımı yok.
 `npm run publish-data` komutu; o komut sayfaları ve veriyi buraya yazar, doğrular ve push eder.
 
 `CNAME` dosyası alan adını GitHub Pages'e bağlar; silmeyin.
+
+## Mağaza butonları
+
+`index.html` içindeki iki `.store` bağlantısının `data-href` değeri boşken buton soluk ve "Yakında" görünür.
+Mağaza sayfası yayına girince adresi yazmak yeterli:
+
+- App Store: `https://apps.apple.com/app/id6823320671`
+- Google Play: `https://play.google.com/store/apps/details?id=app.realtry`

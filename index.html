@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Real TRY — Lirayı iki enflasyon ölçümüyle tartın</title>
+<title>Real TRY — Dolar ve euro bugün kaç TL olmalıydı?</title>
 <meta name="description" content="İki enflasyon ölçümüne (TÜİK ve ENAG) göre düzeltilmiş USD ve EUR kuru. Hesap açmanız gerekmez, reklam yoktur, hiçbir veri toplanmaz.">
 <style>
 :root { --blue:#2f6fb5; --orange:#c2571a; --ink:#16161a; --body:#3b3b42; --muted:#71717a; --line:#e6e6ea; --bg:#fbfbfc; --card:#fff; }
@@ -31,6 +31,12 @@ footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line);
 .two { display:flex; gap:.6rem; flex-wrap:wrap; margin:1.25rem 0; }
 .pill { border:1px solid var(--line); border-radius:999px; padding:.2rem .8rem; font-size:.85rem; background:var(--card); }
 .pill.t { color:var(--blue); } .pill.e { color:var(--orange); }
+.stores { display:flex; flex-wrap:wrap; gap:.75rem; margin:1.75rem 0 .5rem; }
+.store { display:flex; flex-direction:column; justify-content:center; min-width:11rem; padding:.6rem 1.1rem; border-radius:12px; background:var(--ink); color:var(--bg); text-decoration:none; line-height:1.25; }
+.store small { font-size:.72rem; opacity:.8; }
+.store strong { font-size:1.05rem; color:var(--bg); }
+.store[aria-disabled="true"] { opacity:.45; cursor:default; }
+.store .tag { font-size:.72rem; margin-top:.15rem; }
 </style>
 </head>
 <body>
@@ -41,26 +47,44 @@ footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line);
   </header>
 
   <div class="hero">
-    <h1>Lirayı iki enflasyon ölçümüyle tartın</h1>
-    <p>Bir günde kurun denge olduğunu varsayın; sonrasında Türkiye’deki fiyat artışı ile ABD ve Euro Bölgesi’ndeki fiyat artışı arasındaki farkı kura yansıtın. Real TRY, 1 USD ve 1 EUR için <strong>enflasyon farkına göre düzeltilmiş kuru</strong> hesaplar.</p>
-    <p>İki ölçümü yan yana gösterir: <strong>TÜİK</strong> (resmi TÜFE) ve <strong>ENAG</strong> (alternatif ölçüm). Hangisinin doğru olduğuna karar vermez; aradaki farkı ve sonuca etkisini gösterir.</p>
-    <div class="two"><span class="pill t">TÜİK · resmi veri</span><span class="pill e">ENAG · alternatif ölçüm</span></div>
+    <h1>Dolar ve euro bugün kaç TL olmalıydı?</h1>
+    <p>TL, mal ve hizmetler karşısında ne kadar değer kaybettiyse dolar ve euro karşısında da o kadar kaybetseydi, 1 USD ve 1 EUR bugün kaç TL olurdu? Real TRY bunu iki enflasyon ölçümüyle, <strong>TÜİK</strong> ve <strong>ENAG</strong>’a göre yan yana hesaplar.</p>
+  <div class="stores">
+    <a class="store" data-href="" aria-disabled="true">
+      <small>iPhone için · for iPhone</small><strong>App Store</strong><span class="tag">Yakında · Coming soon</span>
+    </a>
+    <a class="store" data-href="" aria-disabled="true">
+      <small>Android için · for Android</small><strong>Google Play</strong><span class="tag">Yakında · Coming soon</span>
+    </a>
+  </div>
+    <p>Hangi ölçümün doğru olduğuna karar vermez; aradaki farkı ve sonuca etkisini gösterir. Yöntem, İsveçli ekonomist Gustav Cassel’in göreli satın alma gücü paritesidir. Hesap bir tahmindir, yatırım tavsiyesi değildir.</p>
+    <p>Hesap açmanız gerekmez, reklam yoktur, hiçbir veri toplanmaz.</p>
+  </div>
     <p>Hesap bir tahmindir, yatırım tavsiyesi değildir. Hesap, veri kaynakları ve sınırlılıklar uygulamanın “Yöntem ve Notlar” sayfasında açıkça yazılıdır. Hesap açmanız gerekmez, reklam yoktur, hiçbir veri toplanmaz.</p>
   </div>
   <div class="en">
-    <h1>Weigh the lira with two inflation measures</h1>
-    <p>Assume the exchange rate was in balance on a chosen month, then carry forward the gap between Turkish and US or euro-area price rises. Real TRY computes an <strong>inflation-adjusted rate</strong> for 1 USD and 1 EUR against the Turkish lira.</p>
-    <p>It shows two measures side by side — <strong>TurkStat</strong> (official CPI) and <strong>ENAG</strong> (an alternative measure) — and does not decide which is right. It shows the gap between them and what that gap does to the result.</p>
-    <p>An estimate, not investment advice. No account, no ads, nothing collected.</p>
+    <h1>What should the dollar and euro cost in lira today?</h1>
+    <p>If the lira had lost as much against the dollar and euro as it lost against goods and services, what would 1 USD and 1 EUR cost in lira today? Real TRY calculates it with two inflation measures, <strong>TÜİK</strong> (official CPI) and <strong>ENAG</strong> (an alternative measure), side by side.</p>
+    <p>It does not decide which measure is right; it shows the gap and what it does to the result. The method is Gustav Cassel’s relative purchasing power parity. An estimate, not investment advice. No account, no ads, nothing collected.</p>
   </div>
   <div class="links">
     <a href="/gizlilik">Gizlilik Politikası</a>
     <a href="/privacy">Privacy Policy</a>
     <a href="mailto:support@realtry.app">support@realtry.app</a>
   </div>
-  <p class="soon">App Store ve Google Play’de yakında. · Coming soon to the App Store and Google Play.</p>
 
   <footer>Real TRY · <a href="mailto:support@realtry.app">support@realtry.app</a></footer>
 </div>
+<script>
+// Store links: set data-href on a button once its listing is public; it then becomes a normal link.
+document.querySelectorAll('.store').forEach(function (a) {
+  var url = a.getAttribute('data-href');
+  if (!url) return;
+  a.href = url;
+  a.removeAttribute('aria-disabled');
+  var tag = a.querySelector('.tag');
+  if (tag) tag.textContent = 'İndir · Download';
+});
+</script>
 </body>
 </html>
