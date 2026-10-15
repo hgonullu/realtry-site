@@ -180,12 +180,12 @@
  "2023-05": {
   "source": "https://www.brandingturkiye.com/enag-mayis-2023-enflasyonunu-acikladi/",
   "annual": 109.01,
+  "note": "ENAG published two variants for May 2023: 7.35 (natural-gas prices unchanged, used here) and 5.68 (zero-gas variant, 5.68 monthly / 105.45 annual).",
   "verification": {
    "status": "confirmed",
    "url": "https://www.cumhuriyet.com.tr/ekonomi/son-dakika-enag-mayis-ayi-enflasyon-verilerini-acikladi-2087749",
    "note": "Cumhuriyet, 5 Jun 2023. 7.35/109.01 is the scenario with natural gas price unchanged; ENAG also published a zero-gas-price variant of 5.68/105.45."
-  },
-  "note": "ENAG published two variants for May 2023: 7.35 (natural-gas prices unchanged, used here) and 5.68 (zero-gas variant, 5.68 monthly / 105.45 annual)."
+  }
  },
  "2023-06": {
   "source": "https://www.brandingturkiye.com/enag-haziran-2023-enflasyonunu-acikladi/",
