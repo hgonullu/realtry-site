@@ -47,12 +47,15 @@ footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line);
 .other-app span { color:var(--body); font-size:.92rem; line-height:1.45; }
 .other-app .other-en { color:var(--muted); font-size:.85rem; }
 </style>
+<link rel="alternate" hreflang="tr" href="https://realtry.app/">
+<link rel="alternate" hreflang="en" href="https://realtry.app/en">
+<link rel="alternate" hreflang="x-default" href="https://realtry.app/">
 </head>
 <body>
 <div class="wrap">
   <header>
     <div><div class="name">Real TRY</div><div class="what">ENFLASYONA GÖRE DÜZELTİLMİŞ KUR</div></div>
-    
+    <div class="langs"><a href="/?lang=tr" aria-current="page" hreflang="tr">TR</a> · <a href="/en" hreflang="en">EN</a></div>
   </header>
 
   <div class="hero">
@@ -60,34 +63,27 @@ footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line);
     <p>TL, mal ve hizmetler karşısında ne kadar değer kaybettiyse dolar ve euro karşısında da o kadar kaybetseydi, 1 USD ve 1 EUR bugün kaç TL olurdu? Real TRY bunu iki enflasyon ölçümüyle, <strong>TÜİK</strong> ve <strong>ENAG</strong>’a göre yan yana hesaplar.</p>
   <div class="stores">
     <a class="store" data-href="" aria-disabled="true">
-      <small>iPhone için · for iPhone</small><strong>App Store</strong><span class="tag">Yakında · Coming soon</span>
+      <small>iPhone için</small><strong>App Store</strong><span class="tag">Yakında</span>
     </a>
     <a class="store" data-href="" aria-disabled="true">
-      <small>Android için · for Android</small><strong>Google Play</strong><span class="tag">Yakında · Coming soon</span>
+      <small>Android için</small><strong>Google Play</strong><span class="tag">Yakında</span>
     </a>
   </div>
     <p>Hangi ölçümün doğru olduğuna karar vermez; aradaki farkı ve sonuca etkisini gösterir. Yöntem, İsveçli ekonomist Gustav Cassel’in göreli satın alma gücü paritesidir. Hesap bir tahmindir, yatırım tavsiyesi değildir.</p>
     <p>Hesap, veri kaynakları ve sınırlılıklar uygulamanın “Yöntem ve Notlar” sayfasında açıkça yazılıdır. Hesap açmanız gerekmez, reklam yoktur, hiçbir veri toplanmaz.</p>
   </div>
-  <div class="en">
-    <h1>What should the dollar and euro cost in lira today?</h1>
-    <p>If the lira had lost as much against the dollar and euro as it lost against goods and services, what would 1 USD and 1 EUR cost in lira today? Real TRY calculates it with two inflation measures, <strong>TÜİK</strong> (official CPI) and <strong>ENAG</strong> (an alternative measure), side by side.</p>
-    <p>It does not decide which measure is right; it shows the gap and what it does to the result. The method is Gustav Cassel’s relative purchasing power parity. An estimate, not investment advice. No account, no ads, nothing collected.</p>
-  </div>
   <div class="links">
     <a href="/gizlilik">Gizlilik Politikası</a>
-    <a href="/privacy">Privacy Policy</a>
     <a href="mailto:support@realtry.app">support@realtry.app</a>
   </div>
 
   <div class="other">
-    <div class="other-label">Diğer uygulamamız · Our other app</div>
+    <div class="other-label">Diğer uygulamamız</div>
     <a href="https://miskal.app" class="other-app">
       <img src="/miskal-icon.png" alt="" width="48" height="48">
       <div>
         <strong>Miskal</strong>
         <span>Defterinizi altınla tutun: cari hesap, taksit, kredi ve birikimlerinizi gram altın cinsinden takip edin.</span>
-        <span class="other-en">Keep your books in gold: track receivables, instalments, loans and savings in grams of gold.</span>
       </div>
     </a>
   </div>
@@ -95,6 +91,18 @@ footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line);
   <footer>Real TRY · <a href="mailto:support@realtry.app">support@realtry.app</a></footer>
 </div>
 <script>
+// First visit from a non-Turkish browser: show the English page. An explicit choice (?lang=tr, or a click
+// on TR/EN) is remembered and always wins.
+(function () {
+  try {
+    var q = new URLSearchParams(location.search).get('lang');
+    if (q === 'tr') { localStorage.setItem('realtry-lang', 'tr'); return; }
+    var saved = localStorage.getItem('realtry-lang');
+    if (saved === 'tr') return;
+    if (saved === 'en' || !/^tr\b/i.test(navigator.language || '')) location.replace('/en');
+  } catch (e) {}
+})();
+
 // Store links: set data-href on a button once its listing is public; it then becomes a normal link.
 document.querySelectorAll('.store').forEach(function (a) {
   var url = a.getAttribute('data-href');
@@ -102,7 +110,7 @@ document.querySelectorAll('.store').forEach(function (a) {
   a.href = url;
   a.removeAttribute('aria-disabled');
   var tag = a.querySelector('.tag');
-  if (tag) tag.textContent = 'İndir · Download';
+  if (tag) tag.textContent = 'İndir';
 });
 </script>
 </body>
