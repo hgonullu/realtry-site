@@ -441,5 +441,14 @@
  "2026-09": {
   "source": "https://bankadunyasi.com/enag-eylul-enflasyonu-2026/",
   "annual": 46.61
+ },
+ "2026-10": {
+  "source": "https://tr.euronews.com/2026/11/03/ekimde-yillik-enflasyon-tuik-yuzde-2977-enag-yuzde-4512-acikladi",
+  "annual": 45.12,
+  "verification": {
+   "status": "confirmed",
+   "url": "https://www.sozcu.com.tr/son-dakika-enag-ekim-ayi-enflasyon-rakamlarini-acikladi-p375428",
+   "note": "Sözcü, 3 Kasım 2026 (also Milli Gazete, 3 Kasım 2026)"
+  }
  }
 }
